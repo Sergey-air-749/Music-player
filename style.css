@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.contenir {
+    display: flex;
+    flex-direction: column;
+
+    /* position: absolute;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%; */
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    /* background-color: #ffffffad; */
+    background-color: #0000009e;
+    backdrop-filter: blur(10px);
+
+    position: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+}
+
+/* header::before {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} */
+
+
+
+
+header h2{
+    color: #fff;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.main-h {
+    padding: 15px;
+
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+.card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: rgb(26, 26, 26);
+    border-radius: 15px;
+
+    padding: 15px;
+    margin: 10px;
+}
+
+.card img{
+    width: 50px;
+    border-radius: 5px;
+}
+
+.info {
+    padding-left: 10px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.tocka {
+    width: 5px;
+    height: 5px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: rgb(72, 72, 72);
+    border-radius: 100%;
+}
+
+
+.info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info span {
+    display: flex;
+    align-items: center;
+    color: rgb(112, 112, 112);
+}
+
+
+
+
+.ablohca {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+footer {
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    bottom: 15px;
+}
+
+.footer {
+    background-color: #363636a3;
+    backdrop-filter: blur(10px);
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.playr_img{
+    width: 50px;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    footer {
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer {
+        background-color: #363636a3;
+        backdrop-filter: blur(10px);
+
+        padding: 15px;
+        width: 100%;
+
+        border-radius: 0px;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+

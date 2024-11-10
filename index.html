@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/playr.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <title>music</title>
+</head>
+<body>
+
+    <div class="contenir">
+        <header>
+            <div class="header">
+                <h2>music</h2>
+            </div>
+        </header>
+
+
+        <main>
+            <h2 class="main-h">Что можно послушать</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="img/377dc37df17523873990506e560f6e7b.1000x1000x1 (1) (Пользовательское).png" alt="">
+
+                    <div class="info">
+                        <a href="/alibom/Жизнь удалась/index.html"> 
+                            <h3>Жизнь удалась</h3> 
+                        </a>
+
+                        <span>Алибом • FACE</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+        <footer>
+
+            <input type="range" value="0" class="time" name="" id="time">
+
+            <div class="footer">
+                <audio src="" id="playr" controls hidden></audio>
+
+                <div class="trak-info">
+                    <img src="/img/377dc37df17523873990506e560f6e7b.1000x1000x1 (1) (Пользовательское).png" class="playr_img" id="playr_img" alt="">
+
+                    <div class="text">
+                        <h3 id="audio_name">Плачу</h3>      
+                        <span id="audio_after">FACE</span>
+                    </div>
+                    
+                </div>
+
+                <img id="pause" class="play_pause" onclick="play()" src="/img/pause.svg" alt="">
+                <img id="play" class="play_pause" style="display: none;" onclick="pause()" src="/img/play.svg" alt="">
+
+            </div>
+        </footer>
+
+        
+    </div>
+
+    
+</body>
+</html>
