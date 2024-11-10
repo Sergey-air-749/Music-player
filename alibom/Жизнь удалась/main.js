@@ -44,6 +44,7 @@ function music_1() {
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
     localStorage.setItem('audio_name', audio_name.innerHTML)
+    localStorage.setItem('audio_after', audio_after.innerHTML)
 
     play()
 }
@@ -59,6 +60,7 @@ function music_2() {
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
     localStorage.setItem('audio_name', audio_name.innerHTML)
+    localStorage.setItem('audio_after', audio_after.innerHTML)
 
     play()
 }
@@ -73,6 +75,7 @@ function music_3() {
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
     localStorage.setItem('audio_name', audio_name.innerHTML)
+    localStorage.setItem('audio_after', audio_after.innerHTML)
 
     play()
 }
@@ -87,6 +90,7 @@ function music_4() {
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
     localStorage.setItem('audio_name', audio_name.innerHTML)
+    localStorage.setItem('audio_after', audio_after.innerHTML)
 
     play()
 }
