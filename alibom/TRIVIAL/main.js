@@ -36,7 +36,7 @@ function pause() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/Music-player/music/artist/Kai Angel, 9mice/18031.mp3';
+    document.getElementById('playr').src = '/Music-player/music/artist/Kai Angel 9mice/18031.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = '*** TRIVIAL'

@@ -86,7 +86,9 @@ header h2{
 
 
 
-
+.info {
+    cursor: pointer;
+}
 
 
 

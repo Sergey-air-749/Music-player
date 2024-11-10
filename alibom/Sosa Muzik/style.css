@@ -36,6 +36,12 @@ header h2{
 
 
 
+.info {
+    cursor: pointer;
+}
+
+
+
 
 .alibom {
     /* background: linear-gradient(0deg, #ffffff00 20%, rgb(0, 100, 183)); */
