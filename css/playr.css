@@ -54,10 +54,6 @@ footer {
 
 
 
-
-
-
-
 .time {
     /* width: 90%; */
     height: 10px;
@@ -115,6 +111,7 @@ footer {
     }
 
     .time {
+        border-radius: 0px;
         width: 100%;
     }
 }
