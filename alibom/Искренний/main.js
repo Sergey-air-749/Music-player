@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/Music-player/img/1200x1200bb (Пользовательское) (Пользовательское).jpg';
+let icon = '/Music-player/img/1200x1200bb100.jpg';
 audio_after.innerHTML = 'FACE'
 
 
