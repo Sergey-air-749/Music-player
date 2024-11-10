@@ -18,7 +18,7 @@ body {
 header {
     height: 100px;
     /* background-color: #000000ad; */
-    backdrop-filter: blur(15px);
+    /* backdrop-filter: blur(15px); */
     position: absolute;
 
     display: flex;
