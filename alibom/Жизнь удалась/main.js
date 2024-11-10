@@ -41,9 +41,9 @@ function music_1() {
 
     audio_name.innerHTML = 'Маленькая телка'
 
-    localStorage.setItem('playr', '/Music-player/music/artist/FACE/FACE_-_Malenkaya_telka_72787655 (3).mp3')
+    localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
-    localStorage.setItem('audio_name', 'Маленькая телка')
+    localStorage.setItem('audio_name', audio_name.innerHTML)
 
     play()
 }
@@ -56,6 +56,10 @@ function music_2() {
 
     audio_name.innerHTML = 'Плачу'
 
+    localStorage.setItem('playr', document.getElementById('playr').src )
+    localStorage.setItem('audio_icon', icon)
+    localStorage.setItem('audio_name', audio_name.innerHTML)
+
     play()
 }
 
@@ -66,6 +70,10 @@ function music_3() {
 
     audio_name.innerHTML = 'В новых адиках'
 
+    localStorage.setItem('playr', document.getElementById('playr').src )
+    localStorage.setItem('audio_icon', icon)
+    localStorage.setItem('audio_name', audio_name.innerHTML)
+
     play()
 }
 
@@ -75,6 +83,10 @@ function music_4() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Рэйман'
+
+    localStorage.setItem('playr', document.getElementById('playr').src )
+    localStorage.setItem('audio_icon', icon)
+    localStorage.setItem('audio_name', audio_name.innerHTML)
 
     play()
 }
