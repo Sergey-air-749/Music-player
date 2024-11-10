@@ -86,6 +86,10 @@ footer {
 }
 
 
+.text span {
+    color: #606060;
+}
+
 
 
 @media screen and (max-width: 480px){

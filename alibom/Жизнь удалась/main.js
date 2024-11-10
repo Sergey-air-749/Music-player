@@ -41,6 +41,10 @@ function music_1() {
 
     audio_name.innerHTML = 'Маленькая телка'
 
+    localStorage.setItem('playr', '/Music-player/music/artist/FACE/FACE_-_Malenkaya_telka_72787655 (3).mp3')
+    localStorage.setItem('audio_icon', icon)
+    localStorage.setItem('audio_name', 'Маленькая телка')
+
     play()
 }
 
