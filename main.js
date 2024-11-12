@@ -3,9 +3,12 @@ const audio = document.getElementById('playr');
 const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
+document.getElementById('playr').src = localStorage.getItem('playr')
+document.getElementById('playr_img').src = localStorage.getItem('audio_icon');
+audio_name.innerHTML = localStorage.getItem('audio_name')
+audio_after.innerHTML = localStorage.getItem('audio_after')
 
-let icon = '/img/m1000x1000 (Пользовательское).jpeg';
-audio_after.innerHTML = 'Платина'
+
 
 
 function play() {
@@ -25,35 +28,6 @@ function pause() {
     document.getElementById('play').style.display = 'none'
     document.getElementById('pause').style.display = 'block'
 }
-
-
-// function pause() {
-//     if (document.getElementById('playr').paused != true) {
-//         document.getElementById('playr').play();
-//     } else {
-//         document.getElementById('playr').pause();
-//     }
-// }
-
-
-
-
-
-function music_1() {
-    document.getElementById('playr').src = '/music/artist/Платина/Platina_-_liga_la_sosa_73090035.mp3';
-    document.getElementById('playr_img').src = icon;
-
-    audio_name.innerHTML = 'liga la sosa'
-
-    localStorage.setItem('playr', document.getElementById('playr').src )
-    localStorage.setItem('audio_icon', icon)
-    localStorage.setItem('audio_name', audio_name.innerHTML)
-    localStorage.setItem('audio_after', audio_after.innerHTML)
-
-
-    play()
-}
-
 
 
 
