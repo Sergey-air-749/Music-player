@@ -40,6 +40,7 @@ function music_1() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = '*** TRIVIAL'
+    audio_after.innerHTML = 'Kai Angel, 9mice'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)

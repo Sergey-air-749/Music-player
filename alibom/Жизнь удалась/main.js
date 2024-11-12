@@ -40,6 +40,7 @@ function music_1() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Маленькая телка'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -56,6 +57,7 @@ function music_2() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Плачу'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -71,6 +73,7 @@ function music_3() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'В новых адиках'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -86,6 +89,7 @@ function music_4() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Рэйман'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)

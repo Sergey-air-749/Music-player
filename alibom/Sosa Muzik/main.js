@@ -44,6 +44,7 @@ function music_1() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'liga la sosa'
+    audio_after.innerHTML = 'Платина'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)

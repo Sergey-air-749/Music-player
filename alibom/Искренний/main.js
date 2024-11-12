@@ -40,6 +40,7 @@ function music_1() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Расстояние'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -56,6 +57,7 @@ function music_2() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'ДНК'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -71,6 +73,7 @@ function music_3() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Домино'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -85,6 +88,7 @@ function music_4() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Истерика'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -100,6 +104,7 @@ function music_5() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Пей'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
@@ -115,6 +120,7 @@ function music_6() {
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Невзаимное Падение'
+    audio_after.innerHTML = 'FACE'
 
     localStorage.setItem('playr', document.getElementById('playr').src )
     localStorage.setItem('audio_icon', icon)
