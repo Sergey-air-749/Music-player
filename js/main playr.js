@@ -12,8 +12,8 @@ if (localStorage.getItem('playr') == null) {
     audio_name_S.innerHTML = localStorage.getItem('audio_name')
     audio_after_S.innerHTML = localStorage.getItem('audio_after')
 
-    audio_after_S.duration = localStorage.getItem('audio_time')
 
-    InputReg_S.max = localStorage.getItem('audio_time_max')
-    InputReg_S.value = localStorage.getItem('audio_time')
+    // audio_after_S.duration = localStorage.getItem('audio_time')
+    // InputReg_S.max = localStorage.getItem('audio_time_max')
+    // InputReg_S.value = localStorage.getItem('audio_time')
 }
