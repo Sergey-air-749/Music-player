@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/Music-player/img/377dc37df17523873990506e560f6e7b.1000x1000x1 (1) (Пользовательское).png';
+let icon = '/img/377dc37df17523873990506e560f6e7b.1000x1000x1 (1) (Пользовательское).png';
 audio_after.innerHTML = 'FACE'
 
 
@@ -36,7 +36,7 @@ function pause() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/Music-player/music/artist/FACE/FACE_-_Malenkaya_telka_72787655 (3).mp3';
+    document.getElementById('playr').src = '/music/artist/FACE/FACE_-_Malenkaya_telka_72787655 (3).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Маленькая телка'
@@ -52,7 +52,7 @@ function music_1() {
 
 
 function music_2() {
-    document.getElementById('playr').src = '/Music-player/music/artist/FACE/FACE_-_Plachu_72787656 (1).mp3';
+    document.getElementById('playr').src = '/music/artist/FACE/FACE_-_Plachu_72787656 (1).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Плачу'
@@ -67,7 +67,7 @@ function music_2() {
 
 
 function music_3() {
-    document.getElementById('playr').src = '/Music-player/music/artist/FACE/FACE_-_V_novykh_adikakh_72787657 (1).mp3';
+    document.getElementById('playr').src = '/music/artist/FACE/FACE_-_V_novykh_adikakh_72787657 (1).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'В новых адиках'
@@ -82,7 +82,7 @@ function music_3() {
 
 
 function music_4() {
-    document.getElementById('playr').src = '/Music-player/music/artist/FACE/FACE_-_Rjejjman_71984254.mp3';
+    document.getElementById('playr').src = '/music/artist/FACE/FACE_-_Rjejjman_71984254.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Рэйман'

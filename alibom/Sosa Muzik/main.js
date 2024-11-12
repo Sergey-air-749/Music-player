@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/Music-player/img/m1000x1000 (Пользовательское).jpeg';
+let icon = '/img/m1000x1000 (Пользовательское).jpeg';
 audio_after.innerHTML = 'Платина'
 
 
@@ -40,7 +40,7 @@ function pause() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/Music-player/music/artist/Платина/Platina_-_liga_la_sosa_73090035.mp3';
+    document.getElementById('playr').src = '/music/artist/Платина/Platina_-_liga_la_sosa_73090035.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'liga la sosa'
