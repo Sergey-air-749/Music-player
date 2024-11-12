@@ -48,7 +48,7 @@ function updateProgress(e) {
     InputReg.max = Math.floor(audio.duration)
 
     
-    if (localStorage.getItem('audio_time') != null || 0) {
+    if (localStorage.getItem('audio_time') == null || 0) {
 
     } else {
         localStorage.setItem('audio_time', InputReg.value)
