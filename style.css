@@ -38,7 +38,7 @@ header {
     width: 100%;
     /* background-color: #ffffffad; */
     background-color: #0000009e;
-    border-bottom: 2px solid #373737;
+    border-bottom: 2px solid #414141;
     backdrop-filter: blur(10px);
 
     display: flex;
