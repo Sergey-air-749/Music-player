@@ -26,6 +26,13 @@ body {
     height: 200px;
 }
 
+.zagolovoc {
+    color: #fff;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 600;
+}
+
 header {
     height: 100px;
     width: 100%;
@@ -53,15 +60,6 @@ header {
     left: 0;
 } */
 
-
-
-
-header h2{
-    color: #fff;
-    font-family: Inter;
-    font-size: 50px;
-    font-weight: 600;
-}
 
 main h2 span{
     color: #898989;
