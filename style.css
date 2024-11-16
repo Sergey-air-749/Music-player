@@ -38,7 +38,12 @@ header {
     width: 100%;
     /* background-color: #ffffffad; */
     background-color: #0000009e;
+    border-bottom: 2px solid #373737;
     backdrop-filter: blur(10px);
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 
     position: fixed;
 }
@@ -47,7 +52,7 @@ header {
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 85px;
+    /* height: 85px; */
 }
 
 /* header::before {
