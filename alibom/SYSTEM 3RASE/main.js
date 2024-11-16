@@ -36,7 +36,7 @@ function pause() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/Music-player/music/SYSTEM 3RASE/МЫСЛИ.mp3';
+    document.getElementById('playr').src = '/Music-player/music/3TERNITY/МЫСЛИ.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'МЫСЛИ (Intro)'
@@ -51,7 +51,7 @@ function music_1() {
 }
 
 function music_2() {
-    document.getElementById('playr').src = '/Music-player/music/SYSTEM 3RASE/ФИТИЛЬ.mp3';
+    document.getElementById('playr').src = '/Music-player/music/3TERNITY/ФИТИЛЬ.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'ФИТИЛЬ'
@@ -66,7 +66,7 @@ function music_2() {
 }
 
 function music_3() {
-    document.getElementById('playr').src = '/Music-player/music/SYSTEM 3RASE/КРИК.mp3';
+    document.getElementById('playr').src = '/Music-player/music/3TERNITY/КРИК.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'КРИК'
@@ -82,7 +82,7 @@ function music_3() {
 
 
 function music_4() {
-    document.getElementById('playr').src = '/Music-player/music/SYSTEM 3RASE/ОГОНЬ И ВОДА.mp3';
+    document.getElementById('playr').src = '/Music-player/music/3TERNITY/ОГОНЬ И ВОДА.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'ОГОНЬ И ВОДА'
@@ -97,7 +97,7 @@ function music_4() {
 }
 
 function music_5() {
-    document.getElementById('playr').src = '/Music-player/music/SYSTEM 3RASE/МАГИЯ.mp3';
+    document.getElementById('playr').src = '/Music-player/music/3TERNITY/МАГИЯ.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'МАГИЯ'
@@ -112,7 +112,7 @@ function music_5() {
 }
 
 function music_6() {
-    document.getElementById('playr').src = '/Music-player/music/SYSTEM 3RASE/Кипит кровь.mp3';
+    document.getElementById('playr').src = '/Music-player/music/3TERNITY/Кипит кровь.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Кипит кровь'
