@@ -22,6 +22,9 @@ body {
     min-height: 100%; */
 }
 
+.block {
+    height: 200px;
+}
 
 header {
     height: 100px;
