@@ -201,3 +201,24 @@ footer {
 
 
 
+@media screen and (max-width: 1920px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cards {
+        display: block;
+    }
+
+    .card {
+        width: auto;
+    }
+}
