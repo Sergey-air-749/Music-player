@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/img/100x100.jpg';
+let icon = '/Music-player/img/100x100.jpg';
 audio_after.innerHTML = 'Платина'
 
 

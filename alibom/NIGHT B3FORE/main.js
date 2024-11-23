@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/img/m1000x1000 (Пользовательское).png';
+let icon = '/Music-player/img/m1000x1000 (Пользовательское).png';
 audio_after.innerHTML = '3TERNITY'
 
 

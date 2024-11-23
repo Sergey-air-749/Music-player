@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/img/m1000x1000 (28) (Пользовательское).jpeg';
+let icon = '/Music-player/img/m1000x1000 (28) (Пользовательское).jpeg';
 audio_after.innerHTML = 'Kai Angel, 9mice'
 
 
