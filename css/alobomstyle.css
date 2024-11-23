@@ -52,20 +52,23 @@ header h2{
     align-items: center;
 
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
-.ablohca img{
+.ablohca img {
     /* box-shadow: #fff 0 0 0 0;
     padding: 15px;
     border-radius: 25px;
     width: 250px; */
 
 
-    box-shadow: #00000057 6px 6px 6px -2px;
+    /* box-shadow: #ffffff7d 6px 6px 6px -2px; */
+    box-shadow: #ffffff7d 6px 6px 70px 4px;
     margin: 15px;
-    border-radius: 12px;
-    width: 235px;
+
+    border-radius: 7px;
+    /* width: 235px; */
+    width: 200px;
 }
 
 .ablohca h2{
@@ -77,6 +80,8 @@ header h2{
 .ablohca span{
 
     padding-top: 10px;
+
+    padding-bottom: 20px;
     
     color: #ffffffa8;
 
@@ -87,6 +92,28 @@ header h2{
 
 
 
+
+.buttons .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.share {
+    background-color: #dbdbdb3a;
+    /* width: 20px; */
+    border-radius: 100px;
+
+    width: 64px;
+    height: 64px;
+
+
+    padding: 10px;
+    border: none;
+}
 
 
 
@@ -115,8 +142,10 @@ header h2{
     padding: 10px;
 
     font-family: Inter;
-    font-size: 26px;
-    font-weight: 400;
+    /* font-size: 26px;
+    font-weight: 400; */
+    font-size: 16px;
+    font-weight: 500;
 }
 
 

@@ -4,7 +4,7 @@ const audio_name_S = document.getElementById('audio_name');
 const audio_after_S = document.getElementById('audio_after');
 
 if (localStorage.getItem('playr') == null) {
-    document.getElementById('playr_img').src = '/Music-player/img/notaudio.svg'
+    document.getElementById('playr_img').src = '/img/notaudio.svg'
     audio_name_S.innerHTML = 'Нет данных'
 } else {
     document.getElementById('playr').src = localStorage.getItem('playr')

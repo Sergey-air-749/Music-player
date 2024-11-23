@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/Music-player/img/1200x1200bb100.jpg';
+let icon = '/img/1200x1200bb100.jpg';
 audio_after.innerHTML = 'FACE'
 
 
@@ -32,11 +32,20 @@ function pause() {
 // }
 
 
+function share() {
 
+    const shareData = {
+        title: "MARB Music",
+        text: "Поделиться Ссылкой на альбом",
+        url: location.href,
+    };
+
+    navigator.share(shareData);
+}
 
 
 function music_1() {
-    document.getElementById('playr').src = '/Music-player/music/FACE/FACE_-_Rasstoyanie_72897284 (1).mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Rasstoyanie_72897284 (1).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Расстояние'
@@ -53,7 +62,7 @@ function music_1() {
 
 
 function music_2() {
-    document.getElementById('playr').src = '/Music-player/music/FACE/FACE_-_DNK_72897285 (1).mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_DNK_72897285 (1).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'ДНК'
@@ -69,7 +78,7 @@ function music_2() {
 
 
 function music_3() {
-    document.getElementById('playr').src = '/Music-player/music/FACE/FACE_-_Domino_72897286.mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Domino_72897286.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Домино'
@@ -84,7 +93,7 @@ function music_3() {
 }
 
 function music_4() {
-    document.getElementById('playr').src = '/Music-player/music/FACE/FACE_-_Isterika_72897287.mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Isterika_72897287.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Истерика'
@@ -100,7 +109,7 @@ function music_4() {
 
 
 function music_5() {
-    document.getElementById('playr').src = '/Music-player/music/FACE/FACE_-_Pejj_72897288.mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Pejj_72897288.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Пей'
@@ -116,7 +125,7 @@ function music_5() {
 
 
 function music_6() {
-    document.getElementById('playr').src = '/Music-player/music/FACE/FACE_-_Nevzaimnoe_Padenie_72897289.mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Nevzaimnoe_Padenie_72897289.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Невзаимное Падение'

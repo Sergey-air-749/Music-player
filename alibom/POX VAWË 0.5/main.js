@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/Music-player/img/100x100 (3).jpg';
+let icon = '/img/100x100 (3).jpg';
 audio_after.innerHTML = 'OG Buda'
 
 
@@ -32,11 +32,21 @@ function pause() {
 // }
 
 
+function share() {
+
+    const shareData = {
+        title: "MARB Music",
+        text: "Поделиться Ссылкой на альбом",
+        url: location.href,
+    };
+
+    navigator.share(shareData);
+}
 
 
 
 function music_1() {
-    document.getElementById('playr').src = '/Music-player/music/OG Buda/23115.mp3';
+    document.getElementById('playr').src = '/music/OG Buda/23115.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Из-за К...'

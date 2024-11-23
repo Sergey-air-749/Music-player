@@ -4,7 +4,7 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/Music-player/img/m1000x1000 (Пользовательское).png';
+let icon = '/img/m1000x1000 (Пользовательское).png';
 audio_after.innerHTML = '3TERNITY'
 
 
@@ -32,11 +32,21 @@ function pause() {
 // }
 
 
+function share() {
+
+    const shareData = {
+        title: "MARB Music",
+        text: "Поделиться Ссылкой на альбом",
+        url: location.href,
+    };
+
+    navigator.share(shareData);
+}
 
 
 
 function music_1() {
-    document.getElementById('playr').src = '/Music-player/music/3TERNITY/7ebd7eb223b3d2e9cdea0da8dce16744677c168954a9421f2182cf273b7501f0.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/7ebd7eb223b3d2e9cdea0da8dce16744677c168954a9421f2182cf273b7501f0.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Купе'
@@ -51,7 +61,7 @@ function music_1() {
 }
 
 function music_2() {
-    document.getElementById('playr').src = '/Music-player/music/3TERNITY/18867.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/18867.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Лекарство'
@@ -66,7 +76,7 @@ function music_2() {
 }
 
 function music_3() {
-    document.getElementById('playr').src = '/Music-player/music/3TERNITY/b9fdfa12cf32d63177f443d7e24f73058538e283bdb371947b5a8cd3047dadf0.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/b9fdfa12cf32d63177f443d7e24f73058538e283bdb371947b5a8cd3047dadf0.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'PLACEBO'
